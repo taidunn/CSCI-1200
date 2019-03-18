@@ -33,6 +33,11 @@ subtracted = num1 - num2
 divided = num1 / num2
 multiply = num1 * num2
 
+if num1 > num2:
+	modulo = num1 % num2
+else:
+	modulo = num2 % num1
+
 # Task 4
 print('------------------------------------------------------')
 print('Task 4')
@@ -52,3 +57,7 @@ print(name + ' when you divide ' + str(num1) + ' ' + str(num2) +
 #Multiplying
 print(name + ' when you multiply ' + str(num1) + ' ' + str(num2) +
  ' you will get ' + str(multiply) + '.')
+
+#Modulo
+print(name + ' the numbers ' + str(num1) + ' and ' + str(num2) +
+ ' are congruent modulo ' + str(modulo) + '.')
